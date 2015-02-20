@@ -1,0 +1,14 @@
+PODS:
+  - RQAnimations (0.0.2)
+
+DEPENDENCIES:
+  - RQAnimations (from `../RQAnimations`)
+
+EXTERNAL SOURCES:
+  RQAnimations:
+    :path: ../RQAnimations
+
+SPEC CHECKSUMS:
+  RQAnimations: 365dd1e06d8f358a3b9668f9e12404f88e37b87c
+
+COCOAPODS: 0.35.0
