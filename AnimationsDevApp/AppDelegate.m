@@ -1,4 +1,5 @@
 #import "AppDelegate.h"
+#import "LibraryViewController.h"
 
 @interface AppDelegate ()
 
@@ -10,8 +11,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 
-    UIViewController *animationsViewController = [[UIViewController alloc] init];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:animationsViewController];
+    LibraryViewController *libraryViewController = [[LibraryViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:libraryViewController];
     self.window.rootViewController = navController;
 
     [self.window makeKeyAndVisible];
