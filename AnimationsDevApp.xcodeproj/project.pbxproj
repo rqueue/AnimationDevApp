@@ -242,9 +242,11 @@
 				TargetAttributes = {
 					93CAA8E21A97E55E00A553B6 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = TU368U68TY;
 					};
 					93CAA8FB1A97E55E00A553B6 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = TU368U68TY;
 						TestTargetID = 93CAA8E21A97E55E00A553B6;
 					};
 				};
@@ -450,6 +452,7 @@
 				INFOPLIST_FILE = AnimationsDevApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0c5d7fe9-bd8f-4049-b9ad-edf5ee86db54";
 			};
 			name = Debug;
 		};
@@ -461,6 +464,7 @@
 				INFOPLIST_FILE = AnimationsDevApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0c5d7fe9-bd8f-4049-b9ad-edf5ee86db54";
 			};
 			name = Release;
 		};
@@ -468,6 +472,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -479,6 +485,7 @@
 				INFOPLIST_FILE = AnimationsDevAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationsDevApp.app/AnimationsDevApp";
 			};
 			name = Debug;
@@ -487,6 +494,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -494,6 +503,7 @@
 				INFOPLIST_FILE = AnimationsDevAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationsDevApp.app/AnimationsDevApp";
 			};
 			name = Release;
