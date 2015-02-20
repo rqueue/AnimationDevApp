@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		93CAA8E91A97E55E00A553B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CAA8E81A97E55E00A553B6 /* main.m */; };
 		93CAA8EC1A97E55E00A553B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CAA8EB1A97E55E00A553B6 /* AppDelegate.m */; };
-		93CAA8EF1A97E55E00A553B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CAA8EE1A97E55E00A553B6 /* ViewController.m */; };
-		93CAA8F21A97E55E00A553B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CAA8F01A97E55E00A553B6 /* Main.storyboard */; };
 		93CAA8F41A97E55E00A553B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CAA8F31A97E55E00A553B6 /* Images.xcassets */; };
 		93CAA8F71A97E55E00A553B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93CAA8F51A97E55E00A553B6 /* LaunchScreen.xib */; };
 		93CAA9031A97E55E00A553B6 /* AnimationsDevAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CAA9021A97E55E00A553B6 /* AnimationsDevAppTests.m */; };
@@ -32,9 +30,6 @@
 		93CAA8E81A97E55E00A553B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93CAA8EA1A97E55E00A553B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93CAA8EB1A97E55E00A553B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		93CAA8ED1A97E55E00A553B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		93CAA8EE1A97E55E00A553B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		93CAA8F11A97E55E00A553B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93CAA8F31A97E55E00A553B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		93CAA8F61A97E55E00A553B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		93CAA8FC1A97E55E00A553B6 /* AnimationsDevAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsDevAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,9 +78,6 @@
 			children = (
 				93CAA8EA1A97E55E00A553B6 /* AppDelegate.h */,
 				93CAA8EB1A97E55E00A553B6 /* AppDelegate.m */,
-				93CAA8ED1A97E55E00A553B6 /* ViewController.h */,
-				93CAA8EE1A97E55E00A553B6 /* ViewController.m */,
-				93CAA8F01A97E55E00A553B6 /* Main.storyboard */,
 				93CAA8F31A97E55E00A553B6 /* Images.xcassets */,
 				93CAA8F51A97E55E00A553B6 /* LaunchScreen.xib */,
 				93CAA8E61A97E55E00A553B6 /* Supporting Files */,
@@ -199,7 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93CAA8F21A97E55E00A553B6 /* Main.storyboard in Resources */,
 				93CAA8F71A97E55E00A553B6 /* LaunchScreen.xib in Resources */,
 				93CAA8F41A97E55E00A553B6 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +210,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93CAA8EF1A97E55E00A553B6 /* ViewController.m in Sources */,
 				93CAA8EC1A97E55E00A553B6 /* AppDelegate.m in Sources */,
 				93CAA8E91A97E55E00A553B6 /* main.m in Sources */,
 			);
@@ -244,14 +234,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		93CAA8F01A97E55E00A553B6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93CAA8F11A97E55E00A553B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		93CAA8F51A97E55E00A553B6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
